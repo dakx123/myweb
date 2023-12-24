@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.box {
+	padding: 20px;
+	background-color: yellowgreen;
+}
+
+@media screen and (max-width:1024px) {
+	.box {
+		background-color: red;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.box {
+		background-color: pink;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.box {
+		background-color: purple;
+	}
+}
+
+@media screen and (max-width:375px) {
+	.box {
+		background-color: blue;
+	}
+}
+
+@media screen and (max-width:360px) {
+	.box {
+		background-color: black;
+		color:#fff
+	}
+}
+
+@media screen and (max-width:320px) {
+	.box {
+		background-color: yellow;
+		color:black
+	}
+}
